@@ -1,6 +1,6 @@
 #Java Assignments
 
-## Assignment Five - Duck Simulator
+# Assignment Five - Duck Simulator
 
 Duck Simulator
 This is a simple Java program that simulates the behavior of different types of ducks using the Strategy Pattern. The program demonstrates how different types of ducks can have different flying, quacking, and swimming behaviors.
@@ -59,3 +59,38 @@ This is a simple calculator program implemented in Java. It provides a menu-driv
 
 ### Division.java
 - `divide()`: Performs the division operation by taking two numbers as input and displaying the result. Handles `InputMismatchException` for invalid inputs and division by zero error.
+
+
+
+# Java Assignment Five
+
+This is a Java program that calculates the area, perimeter/volume of various shapes such as Circle, Rectangle, Square, Sphere, Cylinder, and Pyramid.
+
+## Features
+
+- Interactive menu-based interface for selecting the desired shape
+- Calculates the area and perimeter/volume of the selected shape
+- Supports Circle, Rectangle, Square, Sphere, Cylinder, and Pyramid shapes
+- Implements inheritance, abstract classes, and interfaces to promote code reusability and extensibility
+
+## Usage
+
+1. Run the `Main.java` file.
+2. The program will prompt you to choose a shape from the menu.
+3. Enter the corresponding number for the desired shape.
+4. Follow the prompts to enter the necessary dimensions (e.g., radius, length, width, height) for the selected shape.
+5. The program will display the shape name, area, and perimeter/volume.
+6. You can continue calculating for different shapes or enter 'exit' to terminate the program.
+
+## File Structure
+
+- `Main.java`: The entry point of the program, containing the main method and user interaction logic.
+- `Shapes.java`: Contains the abstract `Shapes` class, the `Volume` interface, and concrete shape classes (`Circle`, `Rectangle`, `Sphere`, `Cylinder`, `Pyramid`).
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
