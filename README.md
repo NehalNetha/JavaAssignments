@@ -1,5 +1,5 @@
 
-#Assignment Five - Duck Simulator
+# Assignment Five - Duck Simulator
 
 Duck Simulator
 This is a simple Java program that simulates the behavior of different types of ducks using the Strategy Pattern. The program demonstrates how different types of ducks can have different flying, quacking, and swimming behaviors.
